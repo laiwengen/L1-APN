@@ -1,23 +1,13 @@
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+*.o
+*.bak
+*.crf
+*._2i
+*.d
+*.bak
+!/L1-20161121-newID/Projects/MDK-ARM/
 
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
+/L1-20161121-newID/Projects/MDK-ARM/*
+!/L1-20161121-newID/Projects/MDK-ARM/*.s
+# !/L1-20161121-newID/Projects/MDK-ARM/*.uvoptx
+!/L1-20161121-newID/Projects/MDK-ARM/*.uvprojx
+*.TMP
